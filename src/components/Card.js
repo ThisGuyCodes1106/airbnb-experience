@@ -5,9 +5,9 @@ import profileImg from "../images/katie-zaferes.png"
 function Card() {
     return (
         <div className="card">
-          <img src={profileImg} className="card--img" />
+          <img src={profileImg} className="card--img" alt="" />
           <div className="card--stats">
-            <img src={starImg} className="card--star" />
+            <img src={starImg} className="card--star" alt="" />
             <span>5.0</span>
             <span className="grey">(6) • </span>
             <span className="grey">USA</span>
